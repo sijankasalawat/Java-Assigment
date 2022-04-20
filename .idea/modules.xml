@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/java assigment.iml" filepath="$PROJECT_DIR$/.idea/java assigment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Assigment.iml" filepath="$PROJECT_DIR$/Assigment.iml" />
     </modules>
   </component>
 </project>
