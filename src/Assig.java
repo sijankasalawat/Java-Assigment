@@ -1,4 +1,7 @@
-public class Assigment1 {
+package Assigment.src;
+
+import java.util.Scanner;
+public class Assig {
         public static void main(String[] args) {
             Scanner myobj = new Scanner(System.in);
             System.out.println("Enter 1st number:");
@@ -472,6 +475,43 @@ class studentmark{
             System.out.println("\n Fail");
         }
 
+    }
+}
+class note{
+    public static void main(String[] args) {
+        Scanner notes= new Scanner(System.in);
+        System.out.println("enter the cp of the product:");
+        int cp = notes.nextInt();
+        System.out.println("enter the sp of the product:");
+        int sp= notes.nextInt();
+        if ((sp-cp)>0){
+            System.out.println("it is profit");
+
+        }
+        else{
+            System.out.println("it is loss");
+        }
+
+
+
+    }
+}
+class Salar {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the salary: ");
+        int salary = scanner.nextInt();
+
+        if(salary<=10000){
+            System.out.println("HRA=20%\nDA=80%");
+        }
+        else if(salary<=20000){
+            System.out.println("HRA=25%\nDA=90%");
+        }
+        else if(salary>20000){
+            System.out.println("HRA=30%\nDA=95%");
+        }
     }
 }
 
